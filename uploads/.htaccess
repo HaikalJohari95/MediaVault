@@ -1,0 +1,15 @@
+# Force Apache to send the correct media content headers to the browser
+AddType audio/mpeg .mp3
+AddType audio/wav .wav
+AddType video/mp4 .mp4
+AddType application/pdf .pdf
+
+# 1. Allow public web access to read these file types
+<FilesMatch "\.(pdf|docx|mp3|wav|mp4)$">
+    Require all granted
+</FilesMatch>
+
+# 2. Adjust PHP execution properties for large media payloads
+php_value upload_max_filesize 150M
+php_value post_max_size 160M
+php_value max_file_uploads 20
