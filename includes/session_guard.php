@@ -160,7 +160,7 @@ function requireRole($required_role) {
         die("<div style='font-family:sans-serif;padding:40px;text-align:center;color:#e94560;'>
              <h2>⛔ Access Denied</h2>
              <p style='color:#64748b;margin-top:10px;'>You need <strong>$required_role</strong> privileges to view this page.</p>
-             <a href='" . $base_url . "/index1.php' style='display:inline-block;margin-top:20px;padding:10px 24px;background:#0f3460;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;'>← Back to Dashboard</a>
+             <a href='" . $base_url . "/index.php' style='display:inline-block;margin-top:20px;padding:10px 24px;background:#0f3460;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;'>← Back to Dashboard</a>
              </div>");
     }
 }

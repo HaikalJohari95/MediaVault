@@ -9,7 +9,7 @@ session_start();
 
 // Lencongkan pengguna ke index jika sudah sedia log masuk
 if (isset($_SESSION['user_id'])) {
-    header("Location: ../index1.php");
+    header("Location: ../index.php");
     exit();
 }
 
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['logged_in']  = true;
 
             // Hala terus ke halaman utama (Main Dashboard / Index)
-            header("Location: ../index1.php");
+            header("Location: ../index.php");
             exit();
             
         } else {

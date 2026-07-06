@@ -193,7 +193,7 @@ $mimeType = htmlspecialchars($fileData['mime_type'] ?? '');
                     <h1><?php echo $fileName; ?></h1>
                     <p class="muted">Asset Identity Reference Pointer: #<?php echo (int)$fileData['file_id']; ?></p>
                 </div>
-                <a class="btn secondary" href="../index1.php">Return to Dashboard</a>
+                <a class="btn secondary" href="../index.php">Return to Dashboard</a>
             </div>
         </header>
 

@@ -480,7 +480,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h1>Upload File</h1>
                 <p class="muted">Add multimedia metadata and route it to the correct document, audio, or video table.</p>
                 </div>
-                <a class="btn secondary" href="../index1.php">Back to Dashboard</a>
+                <a class="btn secondary" href="../index.php">Back to Dashboard</a>
             </div>
         </header>
 

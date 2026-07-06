@@ -258,7 +258,7 @@ $result = mysqli_stmt_get_result($stmt);
                 <h1>View Files</h1>
                 <p class="muted">Browse, filter, and inspect multimedia records stored in the system.</p>
                 </div>
-                <a class="btn secondary" href="../index1.php">Back to Dashboard</a>
+                <a class="btn secondary" href="../index.php">Back to Dashboard</a>
             </div>
         </header>
 

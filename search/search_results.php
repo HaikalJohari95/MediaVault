@@ -299,7 +299,7 @@ if (isset($_GET['clear']) && $_GET['clear'] === '1') {
                     <h1>Hybrid Search Engine</h1>
                     <p class="muted">Query your enterprise vault using structural properties, keywords, or features.</p>
                 </div>
-                <a class="btn secondary" href="../index1.php">Back to Dashboard</a>
+                <a class="btn secondary" href="../index.php">Back to Dashboard</a>
             </div>
         </header>
 
