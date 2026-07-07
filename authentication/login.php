@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['logged_in']  = true;
 
             // Hala terus ke halaman utama (Main Dashboard / Index)
-            header("Location: ../index.php");
+            header("Location: ../index1.php");
             exit();
             
         } else {
