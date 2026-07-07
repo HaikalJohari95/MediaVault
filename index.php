@@ -122,7 +122,7 @@ $conn->close();
 </div>
 
 <a href="../../dashboard.php?group=<?php echo urlencode($group); ?>" class="btn-back">BACK TO DASHBOARD</a>
-<a href="https://bitp3353.utem.edu.my/2026/all/GroupMDB/GS05/MediaVault/index.php" class="btn-gr06">
+<a href="https://bitp3353.utem.edu.my/2026/all/GroupMDB/GS05/MediaVault/index1.php" class="btn-gr06">
             🚀 GO TO GS05 DASHBOARD
         </a>
 
