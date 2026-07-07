@@ -101,7 +101,7 @@ require_once '../config/db.php';
 <body>
 
 <div class="report-container">
-    <a href="../index.php" class="btn-back">← Back to Dashboard</a>
+    <a href="../index1.php" class="btn-back">← Back to Dashboard</a>
     <h1>👤 Most Active Uploaders (Top 10)</h1>
 
     <?php

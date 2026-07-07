@@ -323,7 +323,7 @@ $serverAssets = get_multimedia_assets($conn);
         <p>Upload PDF, DOCX, MP3, WAV, and MP4 files, then manage and inspect their metadata.</p>
       </div>
       <div>
-        <a href="../index.php" class="btn btn-home">🏠 Back to Home</a>
+        <a href="../index1.php" class="btn btn-home">🏠 Back to Home</a>
       </div>
     </div>
 

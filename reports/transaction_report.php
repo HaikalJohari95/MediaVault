@@ -32,7 +32,7 @@ require_once '../config/db.php';
 <body>
 
 <div class="report-container">
-     <a href="../index.php" class="btn-back">← Back to Dashboard</a>
+     <a href="../index1.php" class="btn-back">← Back to Dashboard</a>
     <h1>📈 Daily Transaction Volume (INSERT, UPDATE, DELETE)</h1>
 
     <?php
