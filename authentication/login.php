@@ -9,7 +9,7 @@ session_start();
 
 // Lencongkan pengguna ke index jika sudah sedia log masuk
 if (isset($_SESSION['user_id'])) {
-    header("Location: ../index.php");
+    header("Location: ../index1.php");
     exit();
 }
 
